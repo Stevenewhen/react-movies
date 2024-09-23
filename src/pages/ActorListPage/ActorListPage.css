@@ -1,0 +1,32 @@
+.actor-scrollbox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  height: 720px;
+  width: 1280px;
+  overflow-y: auto;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.actor-item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.actor-item:hover {
+  background-color: #e0e0e0;
+}
+
+.actor-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.actor-link:hover {
+  color: #555;
+}

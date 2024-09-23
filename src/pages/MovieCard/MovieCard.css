@@ -1,0 +1,36 @@
+.movie-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.movie-poster {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.movie-details {
+  flex: 1;
+}
+
+.movie-title {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.release-year {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.cast {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.release-year {
+  font-size: 0.8em;
+  margin-left: 5px;
+}

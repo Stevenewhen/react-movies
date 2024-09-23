@@ -1,0 +1,37 @@
+.movie-details-container {
+  text-align: center;
+}
+
+.poster-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.actors-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.actor-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.actor-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: 25% 25%;
+}
+
+.actor-info {
+  margin-top: 5px;
+}
+
+.release-year {
+  font-size: 12px;
+  color: #888;
+}

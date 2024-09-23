@@ -1,0 +1,15 @@
+.movie-list-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.movie-list-container {
+  gap: 20px;
+}
+
+.movie-card {
+  /* Add display: flex; */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
